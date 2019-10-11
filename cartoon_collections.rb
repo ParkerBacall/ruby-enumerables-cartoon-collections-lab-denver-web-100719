@@ -5,6 +5,7 @@ def roll_call_dwarves(array)
 end
 
 def summon_captain_planet(array)
+  newArray = []
   array.map do |call|
     puts call
   end
