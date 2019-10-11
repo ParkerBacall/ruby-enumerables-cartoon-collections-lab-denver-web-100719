@@ -20,6 +20,6 @@ end
 
 def find_the_cheese(array)
     array.find do |word|
-      word = "cheddar" || word = "gouda" || word = "camembert"
+      word == "cheddar" || word == "gouda" || word == "camembert"
     end
 end
