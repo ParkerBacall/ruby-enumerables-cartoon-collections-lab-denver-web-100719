@@ -6,6 +6,7 @@ end
 
 def summon_captain_planet(array)
   newArray = []
+  array.string.split()
   array.map do |call|
     puts call
   end
