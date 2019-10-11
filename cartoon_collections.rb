@@ -6,12 +6,12 @@ end
 
 def summon_captain_planet(array)
   newArray = []
-  array = string.split()
+
 
   array.collect do |call|
     newArray.push("#{call.capitalize}!")
   end
-   return newArray.join(" ")
+   return newArray
 end
 
 def long_planeteer_calls# code an argument here
