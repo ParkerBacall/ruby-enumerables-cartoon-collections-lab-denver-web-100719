@@ -19,7 +19,7 @@ def long_planeteer_calls(array)
 end
 
 def find_the_cheese(array)
-    array.include do |word|
+    array.find do |word|
       word == "cheddar" || word == "gouda" || word == "camembert"
     end
 end
